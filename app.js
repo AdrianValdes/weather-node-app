@@ -27,3 +27,4 @@ rl.question("From where would you like to not the weather? ", (address) => {
 
   rl.close();
 });
+dynamically;
