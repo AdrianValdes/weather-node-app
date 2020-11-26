@@ -6,7 +6,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question("From where would you like to not the weather? ", (address) => {
+rl.question("From where would you like to know the weather? ", (address) => {
   if (address === "") {
     return console.log("Give me something, please");
   }
@@ -27,4 +27,3 @@ rl.question("From where would you like to not the weather? ", (address) => {
 
   rl.close();
 });
-dynamically;
